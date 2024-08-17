@@ -42,6 +42,9 @@ val fondoBotonIniciar = Color(0xFFFF7654)
 val letraDetalles = Color(0xFFFF8E72)
 val iconoDireccion = Color (0xFF6408DA)
 
+val miColor = Color(0xFF123456)  // Color definido por código hexadecimal
+
+
 // Vista principal
 @Composable
 fun VistaApp(
@@ -146,7 +149,7 @@ fun VistaApp(
 
                 Box(modifier = Modifier
                     .fillMaxHeight()
-                    .weight(0.5f)){
+                    ){
                     Box(
                         modifier = Modifier
                             .border(
